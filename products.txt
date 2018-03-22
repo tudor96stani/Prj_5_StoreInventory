@@ -2,3 +2,4 @@
 1 paine aliment 100
 456 laptop it 20
 1111 portocala aliment 12
+100 Prod Prod 1

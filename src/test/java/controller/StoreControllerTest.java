@@ -16,9 +16,9 @@ public class StoreControllerTest extends TestCase {
     }
     public void testAddProduct() throws Exception {
 
-        assertTrue(ctrl.stockSituation().size()==4);
+        assertTrue(ctrl.stockSituation().size()==0);
         ctrl.addProduct(new Product(100,"Prod","Prod",1));
-        assertTrue(ctrl.stockSituation().size()==5);
+        assertTrue(ctrl.stockSituation().size()==1);
     }
 
 }
