@@ -73,13 +73,13 @@ public class StoreRepository {
 	}
 
 	public ArrayList<Product> getProductsCategory(String cat){
-		ArrayList<Product> cProducts=new ArrayList<Product>();
-		for(Product p:allProducts){
-			if(p.getCategory().compareTo(cat)==0){
-				cProducts.add(p);
+		ArrayList<Product> cProducts=new ArrayList<Product>(); //1
+		for(Product p:allProducts){ //2
+			if(p.getCategory().compareTo(cat)==0){ //3
+				cProducts.add(p); //4
 			}
 		}
-		return cProducts;
+		return cProducts; //5
 	}
 	
 	public ArrayList<Product> stockSituationProduct(String pname){

@@ -161,4 +161,25 @@ public class StoreControllerTest extends TestCase {
     }
 
 
+    //Lab 3 WBT
+    public void testGetByCategoryEmptyList() throws Exception{
+        assertTrue(ctrl.stockSituation().size()==0);
+        assertTrue(ctrl.getProductsCategory("aliment").size()==0);
+    }
+
+    public void testGetByCategoryWithResults() throws Exception{
+        assertTrue(ctrl.stockSituation().size()==0);
+        ctrl.addProduct(new Product(100,"a","aliment",5));
+        ctrl.addProduct(new Product(101,"b","aliment",5));
+        ctrl.addProduct(new Product(102,"a","telefon",2));
+        assertTrue(ctrl.getProductsCategory("aliment").size()==2);
+    }
+
+    public void testGetByCategoryWithoutResult() throws Exception{
+        assertTrue(ctrl.stockSituation().size()==0);
+        ctrl.addProduct(new Product(100,"a","aliment",5));
+        ctrl.addProduct(new Product(101,"b","aliment",5));
+        assertTrue(ctrl.getProductsCategory("telefon").size()==0);
+    }
+
 }
