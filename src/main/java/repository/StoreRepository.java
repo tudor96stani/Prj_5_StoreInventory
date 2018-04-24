@@ -18,6 +18,8 @@ public class StoreRepository {
 		return allProducts;
 	}
 
+	public void setAllProducts(ArrayList<Product> list ){this.allProducts = list;}
+
 	public void readFile(String fname) throws NumberFormatException, IOException{
 		FileInputStream f=new FileInputStream(fname);
 		DataInputStream in = new DataInputStream(f);

@@ -3,6 +3,9 @@ package controller;
 import junit.framework.TestCase;
 import model.Product;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by tudorstanila on 22/03/2018.
  */
@@ -14,6 +17,12 @@ public class StoreControllerTest extends TestCase {
         super.setUp();
         ctrl = new StoreController();
     }
+
+    public void tearDown() throws Exception {
+        super.tearDown();
+        ctrl.repo.setAllProducts(new ArrayList<Product>());
+    }
+
     public void testAddProduct() throws Exception {
 
         assertTrue(ctrl.stockSituation().size()==0);
