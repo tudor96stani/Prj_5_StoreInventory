@@ -21,7 +21,7 @@ public class StoreControllerTestIntegration extends TestCase {
         super.tearDown();
     }
 
-    public void testIntegration() throws Exception {
+    public void testIntegrationBigBang() throws Exception {
         ctrl.addProduct(new Product(100,"a","Prod",1));
         assertTrue(ctrl.stockSituation().size()==1);
 

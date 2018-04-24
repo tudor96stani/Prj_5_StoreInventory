@@ -4,8 +4,7 @@
     <list default="true" id="0d7f90d9-5513-47f5-a996-1f181bd0e1b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.txt" afterPath="$PROJECT_DIR$/products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/repository/StoreRepository.java" afterPath="$PROJECT_DIR$/src/main/java/repository/StoreRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/StoreControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/StoreControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/StoreControllerTestIntegration.java" afterPath="$PROJECT_DIR$/src/test/java/controller/StoreControllerTestIntegration.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +15,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Prj_5_StoreInventory$StoreControllerTest.coverage" NAME="StoreControllerTest Coverage Results" MODIFIED="1524579299790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Prj_5_StoreInventory$StoreControllerTest_testGetByCategoryWithResults.coverage" NAME="StoreControllerTest.testGetByCategoryWithResults Coverage Results" MODIFIED="1524579394480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>controller.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,8 +32,20 @@
       <file leaf-file-name="StoreControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/controller/StoreControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="191" column="5" lean-forward="false" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
+            <state relative-caret-position="2640">
+              <caret line="178" column="31" lean-forward="true" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreControllerTestIntegration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/controller/StoreControllerTestIntegration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,30 +56,8 @@
       <file leaf-file-name="StoreController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/StoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="37">
               <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreControllerTestIntegration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/controller/StoreControllerTestIntegration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/StoreRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -351,33 +348,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreControllerTestIntegration.testIntegration">
-    <configuration default="false" name="StoreControllerTest.testGetByCategoryWithoutResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Prj_5_StoreInventory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.StoreControllerTest" />
-      <option name="METHOD_NAME" value="testGetByCategoryWithoutResult" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StoreControllerTest.testGetByCategoryWithResults">
     <configuration default="false" name="StoreControllerTest.testStockSituation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -470,6 +441,32 @@
       <option name="MAIN_CLASS_NAME" value="controller.StoreControllerTestIntegration" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StoreControllerTest.testGetByCategoryWithResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Prj_5_StoreInventory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.StoreControllerTest" />
+      <option name="METHOD_NAME" value="testGetByCategoryWithResults" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -863,19 +860,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testGetByCategoryWithoutResult" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testStockSituation" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StoreControllerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration.testIntegration" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testStockSituation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StoreControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration.testIntegration" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testGetByCategoryWithResults" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration.testIntegration" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreControllerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testStockSituation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testGetByCategoryWithoutResult" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testGetByCategoryWithResults" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StoreControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration.testIntegration" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StoreControllerTestIntegration" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StoreControllerTest.testStockSituation" />
       </list>
     </recent_temporary>
   </component>
@@ -898,19 +895,13 @@
       <workItem from="1522753592608" duration="3194000" />
       <workItem from="1523900682032" duration="459000" />
       <workItem from="1524316600107" duration="325000" />
-      <workItem from="1524575426459" duration="2383000" />
+      <workItem from="1524575426459" duration="3680000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StoreControllerTestIntegration - 2018.04.24 at 16h 46m 20s.xml">
-      <configuration name="StoreControllerTestIntegration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoreControllerTestIntegration - 2018.04.24 at 16h 48m 24s.xml">
-      <configuration name="StoreControllerTestIntegration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoreControllerTestIntegration - 2018.04.24 at 16h 48m 58s.xml">
-      <configuration name="StoreControllerTestIntegration" configurationId="JUnit" />
+    <history-entry file="StoreControllerTest - 2018.04.24 at 17h 15m 00s.xml">
+      <configuration name="StoreControllerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StoreControllerTestIntegration_testIntegration - 2018.04.24 at 16h 49m 01s.xml">
       <configuration name="StoreControllerTestIntegration.testIntegration" configurationId="JUnit" />
@@ -933,9 +924,15 @@
     <history-entry file="StoreControllerTestIntegration_testIntegration - 2018.04.24 at 16h 57m 51s.xml">
       <configuration name="StoreControllerTestIntegration.testIntegration" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StoreControllerTest_testGetByCategoryWithResults - 2018.04.24 at 17h 15m 55s.xml">
+      <configuration name="StoreControllerTest.testGetByCategoryWithResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreControllerTest_testGetByCategoryWithResults - 2018.04.24 at 17h 16m 35s.xml">
+      <configuration name="StoreControllerTest.testGetByCategoryWithResults" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15251000" />
+    <option name="totallyTimeSpent" value="16548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
@@ -952,6 +949,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1145,6 +1143,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/StoreRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1155,7 +1161,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/StoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="37">
           <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
@@ -1163,26 +1169,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/StoreControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="191" column="5" lean-forward="false" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
+        <state relative-caret-position="2640">
+          <caret line="178" column="31" lean-forward="true" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/StoreControllerTestIntegration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="67">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
